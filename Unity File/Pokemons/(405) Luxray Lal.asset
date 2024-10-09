@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (405) Luxray Lal
+  m_EditorClassIdentifier: 
+  name: Luxray
+  description: Luxray can see through solid objects. It will instantly spot prey
+    trying to hide behind walls, even if the walls are thick.
+  frontSprite: {fileID: 21300000, guid: f56c6cd23a2009840ad70326d2b38d68, type: 3}
+  backSprite: {fileID: 21300000, guid: 18a26e9e173fa3345a573590aae1319d, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 80
+  attack: 120
+  defense: 79
+  spAttack: 95
+  spDefense: 79
+  speed: 70
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: dc75275bab7330f429814ca6e6a33761, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 7cb49f5d066b01a4d8b24b7637368f05, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: dfe2301702bd2ec4a8761abd34d97c19, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 32
+  minLevel: 32
+  maxLevel: 32
+  isWild: 0

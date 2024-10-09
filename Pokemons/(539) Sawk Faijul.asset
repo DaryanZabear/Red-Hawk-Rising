@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (539) Sawk Faijul
+  m_EditorClassIdentifier: 
+  name: Sawk
+  description: Desiring the strongest karate chop, they seclude themselves in mountains
+    and train without sleeping.
+  frontSprite: {fileID: 21300000, guid: 5cb58b5398d093547bdc2737fe50cb4d, type: 3}
+  backSprite: {fileID: 21300000, guid: f5febee37191d764cae9cdf52c0baedc, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 75
+  attack: 125
+  defense: 75
+  spAttack: 30
+  spDefense: 75
+  speed: 85
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7af2ac92a8a8e8f468e9d61789c1249d, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 757af37cb165fb74b89a80378c57d5dd, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 389a6650403819f41b714128bbaccfa6, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: edd2ef3163867574fbe49b310b620c6a, type: 2}
+    level: 36
+  minLevel: 36
+  maxLevel: 36
+  isWild: 0

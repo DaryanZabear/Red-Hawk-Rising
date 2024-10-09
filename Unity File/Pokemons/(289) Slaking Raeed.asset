@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (289) Slaking Raeed
+  m_EditorClassIdentifier: 
+  name: Slaking
+  description: "This Pok\xE9mon lives lying on its side. It only rolls over and moves
+    when there is no more grass to eat."
+  frontSprite: {fileID: 21300000, guid: 825b4576d1eb916459ac9e703c021414, type: 3}
+  backSprite: {fileID: 21300000, guid: e1c8eb2a84653a6439e484d86c06d714, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 150
+  attack: 160
+  defense: 100
+  spAttack: 95
+  spDefense: 65
+  speed: 100
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ce8aa7633b84fc44b97ca4f15404fcc5, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 510011777dff10f4c931310f52cec3c1, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: ba4a466b01432d4489bbc93143b0a513, type: 2}
+    level: 34
+  - moveBase: {fileID: 11400000, guid: 975127749b9cd674a8ce351ddb874238, type: 2}
+    level: 34
+  minLevel: 34
+  maxLevel: 34
+  isWild: 0

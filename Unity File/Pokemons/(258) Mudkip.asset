@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (258) Mudkip
+  m_EditorClassIdentifier: 
+  name: Mudkip
+  description: "The fin on Mudkip\u2019s head acts as highly sensitive radar. Using
+    this fin to sense movements of water and air, this Pok\xE9mon can determine what
+    is taking place around it without using its eyes."
+  frontSprite: {fileID: 21300000, guid: 287ba11fd8b90bb46a2009ec4da52f40, type: 3}
+  backSprite: {fileID: 21300000, guid: 4b971fc891f228c43b35d7973b2e8957, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 50
+  attack: 70
+  defense: 50
+  spAttack: 50
+  spDefense: 50
+  speed: 40
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 60822646b84bd7d4dac81f2f78349f3a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 728c64a1c1b6dea4cb8cd9f6e4b09470, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 309239bf04008424daf20f4f11073094, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a531cb6ac12a45344a8d82c80b068cd2, type: 2}
+    level: 1
+  minLevel: 1
+  maxLevel: 15
+  isWild: 0

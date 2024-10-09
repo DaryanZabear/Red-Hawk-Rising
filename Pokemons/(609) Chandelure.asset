@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (609) Chandelure
+  m_EditorClassIdentifier: 
+  name: Chandelure
+  description: "This Pok\xE9mon haunts dilapidated mansions. It sways its arms to
+    hypnotize opponents with the ominous dancing of its flames."
+  frontSprite: {fileID: 21300000, guid: d262e5fe95026f5469f22748f3eba89f, type: 3}
+  backSprite: {fileID: 21300000, guid: 752c91feb2f91634c97cce66ff229add, type: 3}
+  type1: 13
+  type2: 3
+  maxHp: 60
+  attack: 55
+  defense: 90
+  spAttack: 145
+  spDefense: 90
+  speed: 80
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6e8cebf4ccd3a1c4689fa538e823f6df, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: aa9569f4a5c289f409fd2e6a1013688a, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 8ebba49a1bbd7d145a74812739f48bf9, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 1a220fda81601c741941be5bb87f0c00, type: 2}
+    level: 15
+  minLevel: 15
+  maxLevel: 40
+  isWild: 0

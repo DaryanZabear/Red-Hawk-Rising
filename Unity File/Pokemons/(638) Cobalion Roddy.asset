@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (638) Cobalion Roddy
+  m_EditorClassIdentifier: 
+  name: Cobalion
+  description: "It has a body and heart of steel. It worked with its allies to punish
+    people when they hurt Pok\xE9mon."
+  frontSprite: {fileID: 21300000, guid: 08f1ab9542249d64cbe49f591aabcc71, type: 3}
+  backSprite: {fileID: 21300000, guid: 5b7b8601352145a48a4deb12e3d699d0, type: 3}
+  type1: 15
+  type2: 7
+  maxHp: 91
+  attack: 90
+  defense: 129
+  spAttack: 90
+  spDefense: 72
+  speed: 108
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 20ea3e4883d138d459a2ed4c1ea265bf, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: dc75275bab7330f429814ca6e6a33761, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 7f111df90061bb34ea98dbf480e2dfcd, type: 2}
+    level: 38
+  - moveBase: {fileID: 11400000, guid: 757af37cb165fb74b89a80378c57d5dd, type: 2}
+    level: 38
+  minLevel: 38
+  maxLevel: 38
+  isWild: 0

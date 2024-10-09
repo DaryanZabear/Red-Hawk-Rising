@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d6b6f4531657d0a4e89932bfa1b5ac65
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pokemon B/W
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bc9275dbdd825c944ae5132041ecc485, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

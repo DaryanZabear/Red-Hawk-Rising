@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (634) Zweilous
+  m_EditorClassIdentifier: 
+  name: Zweilous
+  description: While hunting for prey, Zweilous wanders its territory, its two heads
+    often bickering over which way to go.
+  frontSprite: {fileID: 21300000, guid: 7fadd0700eec359439fd2ae98f26f7ce, type: 3}
+  backSprite: {fileID: 21300000, guid: 62ddbdfdec08ddd4aa19525930761bb2, type: 3}
+  type1: 17
+  type2: 16
+  maxHp: 72
+  attack: 85
+  defense: 70
+  spAttack: 65
+  spDefense: 70
+  speed: 58
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2b3cc98ec522e774a84ed7f873755b25, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: aa3b444f425d5df4182aa9bf08be290f, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: aa9569f4a5c289f409fd2e6a1013688a, type: 2}
+    level: 15
+  minLevel: 15
+  maxLevel: 28
+  isWild: 0

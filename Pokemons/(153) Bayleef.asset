@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (153) Bayleef
+  m_EditorClassIdentifier: 
+  name: Bayleef
+  description: "Bayleef\u2019s neck is ringed by curled-up leaves. Inside each tubular
+    leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy."
+  frontSprite: {fileID: 21300000, guid: 0b032d16d3ccfa64d8be0a2dfc707cf4, type: 3}
+  backSprite: {fileID: 21300000, guid: 9c7a247b7ff655c4897d2590cac2fcdc, type: 3}
+  type1: 4
+  type2: 0
+  maxHp: 60
+  attack: 62
+  defense: 80
+  spAttack: 63
+  spDefense: 80
+  speed: 60
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: fca9e723ebb02db4e9fd706c7a90213f, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 77fa5869632ad5945b312bd799c81663, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 8e2a307ef58ff8b42a0326b0f83105ea, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 9cd607bae03bf92479db77c5fa2552e7, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 31
+  isWild: 0

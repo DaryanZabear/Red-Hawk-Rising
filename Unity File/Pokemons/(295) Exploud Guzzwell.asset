@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (295) Exploud Guzzwell
+  m_EditorClassIdentifier: 
+  name: Exploud
+  description: "In the past, people would use the loud voices of these Pok\xE9mon
+    as a means of communication between distant cities."
+  frontSprite: {fileID: 21300000, guid: ffa939d358b0f07488220a098ade0724, type: 3}
+  backSprite: {fileID: 21300000, guid: ffa939d358b0f07488220a098ade0724, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 104
+  attack: 91
+  defense: 63
+  spAttack: 91
+  spDefense: 73
+  speed: 68
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 443080ddd20f41547865c152c37b16a2, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 030a24bd5d0cb8a4791b25f8299b803d, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: a683575c4e737184f99def81b048b69d, type: 2}
+    level: 36
+  minLevel: 36
+  maxLevel: 36
+  isWild: 0

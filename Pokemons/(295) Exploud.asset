@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (295) Exploud
+  m_EditorClassIdentifier: 
+  name: Exploud
+  description: "In the past, people would use the loud voices of these Pok\xE9mon
+    as a means of communication between distant cities."
+  frontSprite: {fileID: 21300000, guid: ffa939d358b0f07488220a098ade0724, type: 3}
+  backSprite: {fileID: 21300000, guid: ffa939d358b0f07488220a098ade0724, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 104
+  attack: 91
+  defense: 63
+  spAttack: 91
+  spDefense: 73
+  speed: 68
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b80d32b8cb3359840851fc2fb5adbb49, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 60822646b84bd7d4dac81f2f78349f3a, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 443080ddd20f41547865c152c37b16a2, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: a683575c4e737184f99def81b048b69d, type: 2}
+    level: 17
+  minLevel: 0
+  maxLevel: 0
+  isWild: 0

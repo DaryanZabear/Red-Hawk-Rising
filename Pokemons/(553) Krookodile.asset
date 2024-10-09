@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (553) Krookodile
+  m_EditorClassIdentifier: 
+  name: Krookodile
+  description: "Very violent Pok\xE9mon, they try to clamp down on anything that
+    moves in front of their eyes."
+  frontSprite: {fileID: 21300000, guid: e81c467c0a9dfaf4f8ccec0fbd15349e, type: 3}
+  backSprite: {fileID: 21300000, guid: fb46779650418b14da5bc6784900f201, type: 3}
+  type1: 6
+  type2: 17
+  maxHp: 95
+  attack: 117
+  defense: 80
+  spAttack: 65
+  spDefense: 70
+  speed: 92
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aa9569f4a5c289f409fd2e6a1013688a, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: ba4a466b01432d4489bbc93143b0a513, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 88db1811cf25ed04291605e558eda528, type: 2}
+    level: 27
+  minLevel: 27
+  maxLevel: 40
+  isWild: 0

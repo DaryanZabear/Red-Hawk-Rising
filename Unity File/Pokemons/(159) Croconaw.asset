@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (159) Croconaw
+  m_EditorClassIdentifier: 
+  name: Croconaw
+  description: Once Croconaw has clamped its jaws on its foe, it will absolutely
+    not let go. Because the tips of its fangs are forked back like barbed fishhooks,
+    they become impossible to remove when they have sunk in.
+  frontSprite: {fileID: 21300000, guid: 86d4e8de9ff70bf40b67ce7dbfe335fa, type: 3}
+  backSprite: {fileID: 21300000, guid: 3baca42ad3d48ed449dbaf3eb18efa83, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 65
+  attack: 80
+  defense: 80
+  spAttack: 59
+  spDefense: 63
+  speed: 58
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2de5c7ca56fe0ce4c8f24ba4a2815ea7, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: a5a29db8e5d647a4dafa7c607caf962b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 54c5e3e41432de444ab004cc393be482, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 3292dd4e1b4dea346af47466a0b2a7c2, type: 2}
+    level: 24
+  minLevel: 24
+  maxLevel: 24

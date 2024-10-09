@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (130) Gyarados
+  m_EditorClassIdentifier: 
+  name: Gyarados
+  description: It has an extremely aggressive nature. The Hyper Beam it shoots from
+    its mouth totally incinerates all targets.
+  frontSprite: {fileID: 21300000, guid: 8836c2f39dc36464384be68d41797482, type: 3}
+  backSprite: {fileID: 21300000, guid: 8da8cfd86a726224f88aaf88ba701ed2, type: 3}
+  type1: 2
+  type2: 14
+  maxHp: 95
+  attack: 125
+  defense: 79
+  spAttack: 60
+  spDefense: 100
+  speed: 81
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b5b5e4badb20c194fae963ec9ec2f467, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: f5d0d3ba825ad2c4284c54683286b66a, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 75cd68859a505b64c9be914c10807650, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 6f067d5ddf91ce64bbb4e1e25fc89c71, type: 2}
+    level: 13
+  minLevel: 13
+  maxLevel: 44
+  isWild: 0

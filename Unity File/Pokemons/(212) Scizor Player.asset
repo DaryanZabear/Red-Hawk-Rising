@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (212) Scizor Player
+  m_EditorClassIdentifier: 
+  name: Scizor
+  description: "Bulky pincers account for one third of Scizor\u2019s body weight.
+    A single swing of one of these pincers will crush a boulder completely."
+  frontSprite: {fileID: 21300000, guid: 9f201e0f2ec2f6b41bff4c4f54fa530a, type: 3}
+  backSprite: {fileID: 21300000, guid: dacb63f2a7b7b674ebb8538656c5b5ca, type: 3}
+  type1: 10
+  type2: 15
+  maxHp: 70
+  attack: 130
+  defense: 100
+  spAttack: 55
+  spDefense: 80
+  speed: 65
+  baseXp: 175
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0c6e298edfe7e2448a8edd8aa9c99459, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 2434a0356e233384698168de1f575ac2, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 4a95ed9832be80b49830b9198ef503e1, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: afa9538707715e64395798cb24dea2d1, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 8226dd6cf058a284a8ef8f090e93c840, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 4ad8195d98bb37743bcc9dc4f1a2272c, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 48512848b00f12741a3d7593a401cab2, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 2de9ad26ce8385c44aa24ba29bdd32bb, type: 2}
+    level: 39
+  - moveBase: {fileID: 11400000, guid: 757af37cb165fb74b89a80378c57d5dd, type: 2}
+    level: 42
+  minLevel: 28
+  maxLevel: 50
+  isWild: 0

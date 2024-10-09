@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (499) Pignite
+  m_EditorClassIdentifier: 
+  name: Pignite
+  description: The more it eats, the more fuel it has to make the fire in its stomach
+    stronger. This fills it with even more power.
+  frontSprite: {fileID: 21300000, guid: 02f020c6e064e094ba95cb94555a7194, type: 3}
+  backSprite: {fileID: 21300000, guid: 9b25aa2e5ce2f43419f6a9095fc51fd7, type: 3}
+  type1: 3
+  type2: 7
+  maxHp: 90
+  attack: 93
+  defense: 55
+  spAttack: 70
+  spDefense: 55
+  speed: 55
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 078eefc3fb222f84ea04dbf738888402, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6e27cf56a413184449b42e5e4774fab9, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 59f1c3e826af57e488a897a451fd6761, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6e6c38b74f16ac54b83fe6ff646e2947, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 31
+  isWild: 0

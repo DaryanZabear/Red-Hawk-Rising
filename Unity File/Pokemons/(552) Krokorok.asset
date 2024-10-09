@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (552) Krokorok
+  m_EditorClassIdentifier: 
+  name: Krokorok
+  description: Protected by thin membranes, their eyes can see even in the dead of
+    night. They live in groups of a few individuals.
+  frontSprite: {fileID: 21300000, guid: bfab0c7d699187946a714053d87d0fbd, type: 3}
+  backSprite: {fileID: 21300000, guid: b1d5e4fa04b6b5f4b8aab800d9dab0a2, type: 3}
+  type1: 6
+  type2: 17
+  maxHp: 60
+  attack: 82
+  defense: 45
+  spAttack: 45
+  spDefense: 45
+  speed: 74
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 5ddd38efbc93daa4daf5f98ec0d8fc3a, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 88db1811cf25ed04291605e558eda528, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 1db8e2bfb349c6749ae1c4c9e091f0c9, type: 2}
+    level: 17
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 17
+  minLevel: 17
+  maxLevel: 17

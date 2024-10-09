@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (607) Litwick
+  m_EditorClassIdentifier: 
+  name: Litwick
+  description: "The flame on its head keeps its body slightly warm. This Pok\xE9mon
+    takes lost children by the hand to guide them to the spirit world."
+  frontSprite: {fileID: 21300000, guid: c3d9b7a5171a5c043bacb57d229fd5f9, type: 3}
+  backSprite: {fileID: 21300000, guid: 102d0d1a1dcc4054dba0363eff32ac37, type: 3}
+  type1: 13
+  type2: 3
+  maxHp: 50
+  attack: 30
+  defense: 55
+  spAttack: 65
+  spDefense: 55
+  speed: 20
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c2e0a5ffa0084f94ab2201ae700d2543, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 030a24bd5d0cb8a4791b25f8299b803d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 11d9aee336c7f4d498913b63a96e0a8a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 1a220fda81601c741941be5bb87f0c00, type: 2}
+    level: 1
+  minLevel: 1
+  maxLevel: 6
+  isWild: 0

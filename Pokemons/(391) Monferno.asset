@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (391) Monferno
+  m_EditorClassIdentifier: 
+  name: Monferno
+  description: It skillfully controls the intensity of the fire on its tail to keep
+    its foes at an ideal distance.
+  frontSprite: {fileID: 21300000, guid: 19d23d2607ea1ff4b9342592c4520f4a, type: 3}
+  backSprite: {fileID: 21300000, guid: fe0e2fa48058d354b906ac90539f857a, type: 3}
+  type1: 3
+  type2: 7
+  maxHp: 64
+  attack: 78
+  defense: 52
+  spAttack: 78
+  spDefense: 52
+  speed: 81
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 6e6c38b74f16ac54b83fe6ff646e2947, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 1aa048a5d6e35a14881e24ae9c67994f, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: e4bd8cad86e5a36439e7b7a6e51cf467, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 55c04461f2c9a804880ca6a3c64772be, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 31
+  isWild: 0

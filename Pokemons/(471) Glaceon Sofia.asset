@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (471) Glaceon Sofia
+  m_EditorClassIdentifier: 
+  name: Glaceon
+  description: Any who become captivated by the beauty of the snowfall that Glaceon
+    creates will be frozen before they know it.
+  frontSprite: {fileID: 21300000, guid: fa9814ffba40e8647a22506a0a6ce277, type: 3}
+  backSprite: {fileID: 21300000, guid: 95bedf5c8524d7949b3b4ac338fcd3bc, type: 3}
+  type1: 8
+  type2: 0
+  maxHp: 65
+  attack: 60
+  defense: 110
+  spAttack: 130
+  spDefense: 95
+  speed: 65
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0c6e298edfe7e2448a8edd8aa9c99459, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: c7650fa8e2b5d7a4e9775318c65efebe, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 0c6f7763e89878644acd89e216ca5cfd, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 9c0f306d3fe38a14c92a9bd240d7dc56, type: 2}
+    level: 26
+  minLevel: 26
+  maxLevel: 26
+  isWild: 0

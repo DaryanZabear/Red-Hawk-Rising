@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (460) Abomasnow
+  m_EditorClassIdentifier: 
+  name: Abomasnow
+  description: If it sees any packs of Darumaka going after Snover, it chases them
+    off, swinging its sizable arms like hammers.
+  frontSprite: {fileID: 21300000, guid: 52aaf35809f810349b4fedfeaeefb19e, type: 3}
+  backSprite: {fileID: 21300000, guid: 9d3bb7419ba4b8342a0fd2bcc7090054, type: 3}
+  type1: 4
+  type2: 8
+  maxHp: 90
+  attack: 92
+  defense: 75
+  spAttack: 92
+  spDefense: 85
+  speed: 60
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f5d0d3ba825ad2c4284c54683286b66a, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: f2de77a0b20f3e64aafe07e007bb867b, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 401d5358b7ad8e94bb38ba3bae4b4447, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: fca131e37436fd64b92e00c8ba3d4f7e, type: 2}
+    level: 18
+  minLevel: 18
+  maxLevel: 40
+  isWild: 0

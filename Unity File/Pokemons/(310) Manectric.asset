@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (310) Manectric
+  m_EditorClassIdentifier: 
+  name: Manectric
+  description: It stimulates its own muscles with electricity, so it can move quickly.
+    It eases its soreness with electricity, too, so it can recover quickly as well.
+  frontSprite: {fileID: 21300000, guid: 657ece39265663649bddfc1197b74154, type: 3}
+  backSprite: {fileID: 21300000, guid: 657ece39265663649bddfc1197b74154, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 70
+  attack: 75
+  defense: 60
+  spAttack: 105
+  spDefense: 60
+  speed: 105
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7af2ac92a8a8e8f468e9d61789c1249d, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 7cb49f5d066b01a4d8b24b7637368f05, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 2eff69172708d0345acdff755bf41265, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 7ff7687fe201e01469ba67c006fbe546, type: 2}
+    level: 14
+  minLevel: 14
+  maxLevel: 40
+  isWild: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (002) Ivysaur
+  m_EditorClassIdentifier: 
+  name: Ivysaur
+  description: When the bulb on its back grows large, it appears to lose the ability
+    to stand on its hind legs.
+  frontSprite: {fileID: 21300000, guid: 0af2a39c79074e343bb7f933174a1105, type: 3}
+  backSprite: {fileID: 21300000, guid: 198d81c1bd14eb34dbcda1ffa5b7b600, type: 3}
+  type1: 4
+  type2: 11
+  maxHp: 60
+  attack: 62
+  defense: 63
+  spAttack: 80
+  spDefense: 78
+  speed: 60
+  baseXp: 112
+  growthRate: 2
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 401d5358b7ad8e94bb38ba3bae4b4447, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: f2de77a0b20f3e64aafe07e007bb867b, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 6363747d5b337ba4b86c5d2591ac8d60, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 11903ba432ebdd74cb7e5bc45ff97dd0, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 31
+  isWild: 1

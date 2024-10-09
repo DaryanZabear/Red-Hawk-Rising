@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (135) Jolteon Maddy
+  m_EditorClassIdentifier: 
+  name: Jolteon
+  description: If it is angered or startled, the fur all over its body bristles like
+    sharp needles that pierce foes.
+  frontSprite: {fileID: 21300000, guid: 249fde44e544cfa42bb0949fcce46b7f, type: 3}
+  backSprite: {fileID: 21300000, guid: 7582548e4bf4da54b85284350bad85bc, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 65
+  attack: 65
+  defense: 60
+  spAttack: 110
+  spDefense: 95
+  speed: 130
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9cd607bae03bf92479db77c5fa2552e7, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 7cb49f5d066b01a4d8b24b7637368f05, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: b80d32b8cb3359840851fc2fb5adbb49, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 7c32230e2fc17ee42ac094fffad0d696, type: 2}
+    level: 30
+  minLevel: 30
+  maxLevel: 30
+  isWild: 0

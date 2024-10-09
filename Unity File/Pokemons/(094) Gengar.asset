@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (094) Gengar
+  m_EditorClassIdentifier: 
+  name: Gengar
+  description: "On the night of a full moon, if shadows move on their own and laugh,
+    it must be Gengar\u2019s doing."
+  frontSprite: {fileID: 21300000, guid: 4a61ba3c6b8697449b5a4b00186d65c9, type: 3}
+  backSprite: {fileID: 21300000, guid: cf0022abdad8c7d4c962150ee415c731, type: 3}
+  type1: 13
+  type2: 11
+  maxHp: 60
+  attack: 65
+  defense: 80
+  spAttack: 170
+  spDefense: 95
+  speed: 130
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: db3b8c5b79541ca4ab7135687aceb217, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 01a59f39f36489d4287207f0baea8280, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 8ebba49a1bbd7d145a74812739f48bf9, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 4226f90443732e84ba8a9a089c9c1216, type: 2}
+    level: 25
+  minLevel: 25
+  maxLevel: 40
+  isWild: 0

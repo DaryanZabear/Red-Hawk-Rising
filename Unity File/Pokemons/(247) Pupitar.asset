@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (247) Pupitar
+  m_EditorClassIdentifier: 
+  name: Pupitar
+  description: Even sealed in its shell, it can move freely. Hard and fast, it has
+    outstanding destructive power.
+  frontSprite: {fileID: 21300000, guid: 334b4b4e85a15104ea891cc1d728a09b, type: 3}
+  backSprite: {fileID: 21300000, guid: ba2c19024896b304abe8e4a49dc9cf63, type: 3}
+  type1: 9
+  type2: 6
+  maxHp: 70
+  attack: 84
+  defense: 70
+  spAttack: 65
+  spDefense: 70
+  speed: 51
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3a016b2fc2ce0ab4c96fd3067db7b950, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 0c6e298edfe7e2448a8edd8aa9c99459, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 6e27cf56a413184449b42e5e4774fab9, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 241c4a5fa743ff3488cbd2bf9ad9bc00, type: 2}
+    level: 8
+  minLevel: 8
+  maxLevel: 28
+  isWild: 0

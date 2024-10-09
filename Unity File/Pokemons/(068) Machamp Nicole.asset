@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (068) Machamp Nicole
+  m_EditorClassIdentifier: 
+  name: Machamp
+  description: Its four muscled arms slam foes with powerful punches and chops at
+    blinding speed.
+  frontSprite: {fileID: 21300000, guid: 207ecdd6d0845104bbb846cdfdf25bde, type: 3}
+  backSprite: {fileID: 21300000, guid: 3465d5ff47681c347a3a138b29c6e845, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 90
+  attack: 130
+  defense: 80
+  spAttack: 65
+  spDefense: 85
+  speed: 55
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 757af37cb165fb74b89a80378c57d5dd, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 6e27cf56a413184449b42e5e4774fab9, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: be8401c8c3139fd469d1fb51b12153df, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 279f4def061a0d3468506b042018e0cd, type: 2}
+    level: 36
+  minLevel: 36
+  maxLevel: 36
+  isWild: 0

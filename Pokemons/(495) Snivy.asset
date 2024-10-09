@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (495) Snivy
+  m_EditorClassIdentifier: 
+  name: Snivy
+  description: Being exposed to sunlight makes its movements swifter. It uses vines
+    more adeptly than its hands.
+  frontSprite: {fileID: 21300000, guid: ce8ea14c60bd3504687a5fae8c9dbe81, type: 3}
+  backSprite: {fileID: 21300000, guid: b100873f535610a49a239cf85f21457a, type: 3}
+  type1: 4
+  type2: 0
+  maxHp: 45
+  attack: 45
+  defense: 55
+  spAttack: 45
+  spDefense: 55
+  speed: 63
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b5b5e4badb20c194fae963ec9ec2f467, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 728c64a1c1b6dea4cb8cd9f6e4b09470, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 77fa5869632ad5945b312bd799c81663, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fc6716da26b3fdf40a427c33f0c62eb2, type: 2}
+    level: 1
+  minLevel: 1
+  maxLevel: 15
+  isWild: 0

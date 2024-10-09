@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (500) Emboar
+  m_EditorClassIdentifier: 
+  name: Emboar
+  description: It can throw a fire punch by setting its fists on fire with its fiery
+    chin. It cares deeply about its friends.
+  frontSprite: {fileID: 21300000, guid: 3c933abaf22b75f4ba46879d0d3d4775, type: 3}
+  backSprite: {fileID: 21300000, guid: 2c92f2949e5251d40bcd7fcda3c6410d, type: 3}
+  type1: 3
+  type2: 7
+  maxHp: 110
+  attack: 123
+  defense: 65
+  spAttack: 100
+  spDefense: 65
+  speed: 65
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3292dd4e1b4dea346af47466a0b2a7c2, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 279f4def061a0d3468506b042018e0cd, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 510011777dff10f4c931310f52cec3c1, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 32da84968b4ae2e498987b7f9bda22e9, type: 2}
+    level: 32
+  minLevel: 32
+  maxLevel: 40
+  isWild: 0

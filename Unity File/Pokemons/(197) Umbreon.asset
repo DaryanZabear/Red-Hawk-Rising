@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (197) Umbreon
+  m_EditorClassIdentifier: 
+  name: Umbreon
+  description: "When this Pok\xE9mon becomes angry, its pores secrete a poisonous
+    sweat, which it sprays at its opponent\u2019s eyes."
+  frontSprite: {fileID: 21300000, guid: 39b8ec9e1d26bba48b3f9370aa8f1c8d, type: 3}
+  backSprite: {fileID: 21300000, guid: cafe4b704903d5d40b85fd112d22af7c, type: 3}
+  type1: 17
+  type2: 0
+  maxHp: 95
+  attack: 65
+  defense: 110
+  spAttack: 60
+  spDefense: 130
+  speed: 65
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aa9569f4a5c289f409fd2e6a1013688a, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 15c0601df2c5c854c87220df4ca81a00, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: ccac929a399dd884d9416b5a5f11e132, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: b80d32b8cb3359840851fc2fb5adbb49, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 40
+  isWild: 0

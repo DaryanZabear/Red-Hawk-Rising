@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (394) Prinplup
+  m_EditorClassIdentifier: 
+  name: Prinplup
+  description: It lives alone, away from others. Apparently, every one of them believes
+    it is the most important.
+  frontSprite: {fileID: 21300000, guid: f4c77ca1524a59145816c4cf211d7c81, type: 3}
+  backSprite: {fileID: 21300000, guid: 2af0019293683b4468bf1ca1ed9ab38f, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 64
+  attack: 66
+  defense: 68
+  spAttack: 81
+  spDefense: 76
+  speed: 50
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 40eede17934a1ee4db056cb57aa27b90, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 2b3cc98ec522e774a84ed7f873755b25, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: a97255c75f8eae6418b56ef7bbcf71f4, type: 2}
+    level: 16
+  - moveBase: {fileID: 11400000, guid: 0c041a23e6473634f9cc532d536905ab, type: 2}
+    level: 16
+  minLevel: 16
+  maxLevel: 31
+  isWild: 0

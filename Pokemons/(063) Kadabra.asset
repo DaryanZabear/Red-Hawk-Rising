@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (063) Kadabra
+  m_EditorClassIdentifier: 
+  name: Kadabra
+  description: Using its psychic power, Kadabra levitates as it sleeps. It uses its
+    springy tail as a pillow.
+  frontSprite: {fileID: 21300000, guid: 8d1cbc80afe970b4c980497ccf204ce1, type: 3}
+  backSprite: {fileID: 21300000, guid: 18633220adfff4348becd54657c8004d, type: 3}
+  type1: 12
+  type2: 0
+  maxHp: 40
+  attack: 35
+  defense: 30
+  spAttack: 120
+  spDefense: 70
+  speed: 105
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 41dcdb5542e0e0a4c8e028bf95337470, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 592c12d926828ae40b4a42b3dbeddf9a, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: a8479f86906b0c04cbb7410129023916, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: edd2ef3163867574fbe49b310b620c6a, type: 2}
+    level: 13
+  minLevel: 13
+  maxLevel: 23
+  isWild: 0

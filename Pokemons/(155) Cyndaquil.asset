@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (155) Cyndaquil
+  m_EditorClassIdentifier: 
+  name: Cyndaquil
+  description: "Cyndaquil protects itself by flaring up the flames on its back. The
+    flames are vigorous if the Pok\xE9mon is angry. However, if it is tired, the
+    flames splutter fitfully with incomplete combustion."
+  frontSprite: {fileID: 21300000, guid: 4eac9a7ffa5816f4091d30bd0cf5c61f, type: 3}
+  backSprite: {fileID: 21300000, guid: 72c6308323fe1a245b597e4554236825, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 39
+  attack: 52
+  defense: 43
+  spAttack: 60
+  spDefense: 50
+  speed: 65
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b5b5e4badb20c194fae963ec9ec2f467, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 728c64a1c1b6dea4cb8cd9f6e4b09470, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 11d9aee336c7f4d498913b63a96e0a8a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 40eede17934a1ee4db056cb57aa27b90, type: 2}
+    level: 1
+  minLevel: 1
+  maxLevel: 15
+  isWild: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (497) Serperior
+  m_EditorClassIdentifier: 
+  name: Serperior
+  description: "It only gives its all against strong opponents who are not fazed
+    by the glare from Serperior\u2019s noble eyes."
+  frontSprite: {fileID: 21300000, guid: c2b167337352a5746814112aa4cb3abb, type: 3}
+  backSprite: {fileID: 21300000, guid: b59dea4924ed68e42bf7cd9c70ff1266, type: 3}
+  type1: 4
+  type2: 0
+  maxHp: 75
+  attack: 75
+  defense: 95
+  spAttack: 75
+  spDefense: 95
+  speed: 113
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7af2ac92a8a8e8f468e9d61789c1249d, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 99426f4270103ba4fb6af5480af66448, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: c6ae8dae7f7887645b27810f582f2e60, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: b33078dc44e7f3b488cbe1d61f77ec69, type: 2}
+    level: 32
+  minLevel: 32
+  maxLevel: 40
+  isWild: 0

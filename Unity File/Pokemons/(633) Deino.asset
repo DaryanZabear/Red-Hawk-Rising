@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (633) Deino
+  m_EditorClassIdentifier: 
+  name: Deino
+  description: When it encounters something, its first urge is usually to bite it.
+    If it likes what it tastes, it will commit the associated scent to memory.
+  frontSprite: {fileID: 21300000, guid: 22f8306362c51984b84ea5ab483c479a, type: 3}
+  backSprite: {fileID: 21300000, guid: 37d5784c13ef2704a9c9f9dbed511ccf, type: 3}
+  type1: 17
+  type2: 16
+  maxHp: 52
+  attack: 65
+  defense: 50
+  spAttack: 45
+  spDefense: 50
+  speed: 38
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 728c64a1c1b6dea4cb8cd9f6e4b09470, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: aa3b444f425d5df4182aa9bf08be290f, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: b80d32b8cb3359840851fc2fb5adbb49, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 60822646b84bd7d4dac81f2f78349f3a, type: 2}
+    level: 27
+  minLevel: 27
+  maxLevel: 27

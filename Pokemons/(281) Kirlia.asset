@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (281) Kirlia
+  m_EditorClassIdentifier: 
+  name: Kirlia
+  description: If its Trainer becomes happy, it overflows with energy, dancing joyously
+    while spinning about.
+  frontSprite: {fileID: 21300000, guid: 515dc7df945f9eb4b9094471857c69b8, type: 3}
+  backSprite: {fileID: 21300000, guid: 5fe223a47e0506a419ed776c4f15c286, type: 3}
+  type1: 12
+  type2: 0
+  maxHp: 38
+  attack: 35
+  defense: 35
+  spAttack: 65
+  spDefense: 55
+  speed: 50
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: dd3186143bd3d9748924f0a3727cd0d0, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 76561d4002b8e4d4694aa524bb0ced5c, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 8e2a307ef58ff8b42a0326b0f83105ea, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: f1a609f59338bce4fb45d7f5825e8778, type: 2}
+    level: 14
+  minLevel: 14
+  maxLevel: 22
+  isWild: 0

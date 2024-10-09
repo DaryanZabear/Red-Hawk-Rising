@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (133) Eevee Asia
+  m_EditorClassIdentifier: 
+  name: Eevee
+  description: It has the ability to alter the composition of its body to suit its
+    surrounding environment.
+  frontSprite: {fileID: 21300000, guid: 0736ac2cf35a6244d8abfdb621160773, type: 3}
+  backSprite: {fileID: 21300000, guid: d4c2af78b84825e4892e6bbee93866e2, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 55
+  attack: 55
+  defense: 50
+  spAttack: 45
+  spDefense: 65
+  speed: 55
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9cd607bae03bf92479db77c5fa2552e7, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: 40eede17934a1ee4db056cb57aa27b90, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: dd3186143bd3d9748924f0a3727cd0d0, type: 2}
+    level: 27
+  - moveBase: {fileID: 11400000, guid: f7b9fefe91e9d2b499a8bd04f425e032, type: 2}
+    level: 27
+  minLevel: 27
+  maxLevel: 27
+  isWild: 0

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (538) Throh Nicole
+  m_EditorClassIdentifier: 
+  name: Throh
+  description: When it encounters a foe bigger than itself, it wants to throw it.
+    It changes belts as it gets stronger.
+  frontSprite: {fileID: 21300000, guid: 61eded358003f5d46a107e3277adf08f, type: 3}
+  backSprite: {fileID: 21300000, guid: ff9a453f4121a664bbeb3660b4433e78, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 120
+  attack: 100
+  defense: 85
+  spAttack: 30
+  spDefense: 85
+  speed: 45
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2d94ea2358c94e843bca86409ae75a7d, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 1db16ad70bc09f84bbb3f7c2b317c774, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 279f4def061a0d3468506b042018e0cd, type: 2}
+    level: 36
+  - moveBase: {fileID: 11400000, guid: 9eefec508bae80a48965c666c2fd50f3, type: 2}
+    level: 36
+  minLevel: 36
+  maxLevel: 36
+  isWild: 0

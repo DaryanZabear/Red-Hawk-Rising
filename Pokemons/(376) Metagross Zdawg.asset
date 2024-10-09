@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (376) Metagross Zdawg
+  m_EditorClassIdentifier: 
+  name: Metagross
+  description: "Because the magnetic powers of these Pok\xE9mon get stronger in freezing
+    temperatures, Metagross living on snowy mountains are full of energy."
+  frontSprite: {fileID: 21300000, guid: d255a9b4dd378554c9a310125733e18f, type: 3}
+  backSprite: {fileID: 21300000, guid: 09d2590677c2e0349815c51405e8bd62, type: 3}
+  type1: 15
+  type2: 12
+  maxHp: 80
+  attack: 135
+  defense: 130
+  spAttack: 95
+  spDefense: 90
+  speed: 70
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e40d2e4c6c0b4554a84eb8f143691e8a, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 0eaac154d17afd9438282cc78699eed3, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: ba4a466b01432d4489bbc93143b0a513, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: 01a59f39f36489d4287207f0baea8280, type: 2}
+    level: 35
+  minLevel: 35
+  maxLevel: 35
+  isWild: 0

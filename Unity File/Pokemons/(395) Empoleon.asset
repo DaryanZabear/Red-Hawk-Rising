@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (395) Empoleon
+  m_EditorClassIdentifier: 
+  name: Empoleon
+  description: It swims as fast as a jet boat. The edges of its wings are sharp and
+    can slice apart drifting ice.
+  frontSprite: {fileID: 21300000, guid: f984748042cef8a448b295f9e7a5c604, type: 3}
+  backSprite: {fileID: 21300000, guid: 4b09f6b6635342d4fb1d4683499da9cd, type: 3}
+  type1: 2
+  type2: 15
+  maxHp: 84
+  attack: 86
+  defense: 88
+  spAttack: 111
+  spDefense: 101
+  speed: 60
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7f111df90061bb34ea98dbf480e2dfcd, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: 1db16ad70bc09f84bbb3f7c2b317c774, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: f5d0d3ba825ad2c4284c54683286b66a, type: 2}
+    level: 32
+  - moveBase: {fileID: 11400000, guid: a47efa8aff6d65b44899f360d6348364, type: 2}
+    level: 32
+  minLevel: 32
+  maxLevel: 40
+  isWild: 0

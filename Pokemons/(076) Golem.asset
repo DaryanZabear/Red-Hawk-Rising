@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (076) Golem
+  m_EditorClassIdentifier: 
+  name: Golem
+  description: 
+  frontSprite: {fileID: 21300000, guid: efffa7719dd73e74aaaf3a5ce6cb9ba1, type: 3}
+  backSprite: {fileID: 21300000, guid: 14731a68feda1c74d9242e6323e96815, type: 3}
+  type1: 9
+  type2: 6
+  maxHp: 80
+  attack: 120
+  defense: 130
+  spAttack: 55
+  spDefense: 65
+  speed: 45
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ba4a466b01432d4489bbc93143b0a513, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 3a016b2fc2ce0ab4c96fd3067db7b950, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: b04cdda67aba567489f6944c36ece77f, type: 2}
+    level: 28
+  - moveBase: {fileID: 11400000, guid: 2b17126672b41ee4d849c421017fa9ad, type: 2}
+    level: 28
+  minLevel: 28
+  maxLevel: 40
+  isWild: 0

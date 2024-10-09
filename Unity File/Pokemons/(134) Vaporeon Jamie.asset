@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (134) Vaporeon Jamie
+  m_EditorClassIdentifier: 
+  name: Vaporeon
+  description: "When Vaporeon\u2019s fins begin to vibrate, it is a sign that rain
+    will come within a few hours."
+  frontSprite: {fileID: 21300000, guid: 248de96ebbb1abc4994b06a3c0a64ab0, type: 3}
+  backSprite: {fileID: 21300000, guid: 14d03a111479f8c4aa64ab2fa6c85be8, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 130
+  attack: 65
+  defense: 60
+  spAttack: 110
+  spDefense: 95
+  speed: 65
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a5a29db8e5d647a4dafa7c607caf962b, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 7af2ac92a8a8e8f468e9d61789c1249d, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: f5d0d3ba825ad2c4284c54683286b66a, type: 2}
+    level: 24
+  - moveBase: {fileID: 11400000, guid: 40eede17934a1ee4db056cb57aa27b90, type: 2}
+    level: 24
+  minLevel: 24
+  maxLevel: 24

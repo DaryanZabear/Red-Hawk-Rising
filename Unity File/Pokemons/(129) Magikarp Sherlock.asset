@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254a841b4d51d8542beb5cf51ebd9e06, type: 3}
+  m_Name: (129) Magikarp Sherlock
+  m_EditorClassIdentifier: 
+  name: Magikarp
+  description: "It is virtually worthless in terms of both power and speed. It is
+    the most weak and pathetic Pok\xE9mon in the world."
+  frontSprite: {fileID: 21300000, guid: a18ec2029026d7b47966e3ccdac7b30c, type: 3}
+  backSprite: {fileID: 21300000, guid: 7e0fbd4d69503b54ebad50867c6c2d4d, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 20
+  attack: 10
+  defense: 55
+  spAttack: 15
+  spDefense: 20
+  speed: 80
+  baseXp: 0
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 520dab6a2f111e8419a896b62f90f63c, type: 2}
+    level: 26
+  minLevel: 26
+  maxLevel: 26
+  isWild: 0
